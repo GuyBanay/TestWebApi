@@ -12,7 +12,8 @@ namespace TestWebApi.Controllers
         {
             new TestAPI { Id=1, FirstName="Tom", LastName="Starlen"},
             new TestAPI { Id=2, FirstName="Ann", LastName="Mary"},
-            new TestAPI { Id=3, FirstName="Peter", LastName="Silva"}
+            new TestAPI { Id=3, FirstName="Peter", LastName="Silva"},
+            new TestAPI { Id=3, FirstName="Noam", LastName="Banay"}
         };
 
         [HttpGet]
